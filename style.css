@@ -13,7 +13,7 @@ body {
 }
 
 .Heading {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     color: white;
     padding-top: 150px;
@@ -22,7 +22,7 @@ body {
 }
 
 .Heading p {
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .Donate-Now-Button {
@@ -32,4 +32,88 @@ body {
     padding: 7px;
     border-radius: 5px;
     position: center;
+}
+
+.donation-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 100px;
+    font-size: 20px;
+}
+
+h3 {
+    margin: 5px;
+    padding: 20px 20px;
+    background: rgba(128, 128, 128, 0.152);
+}
+
+#selected-amount {
+    color: red;
+    background-color: rgba(250, 128, 114, 0.344);
+}
+
+#please-donate h2 {
+    padding-top: 30px;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    font-style: bold;
+}
+
+#please-donate p {
+    text-align: center;
+
+}
+
+#custom-amount input {
+    padding-top: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 40%;
+
+}
+
+hr {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.plan {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.Donation-plan {
+    display: flex;
+    font-size: 16px;
+    /* text-align: justify; */
+    /* width: 100% */
+}
+
+#food-for-family {
+    padding: 5%;
+    border: 5%;
+    margin: 2%;
+    background-color: rgba(255, 228, 196, 0.37);
+
+}
+
+#Shelter-For-Family {
+    padding: 5%;
+    border: 5%;
+    margin: 2%;
+    background-color: rgba(255, 203, 196, 0.473);
+
+}
+
+#Sponsorship-for-Education {
+    padding: 5%;
+    border: 2%;
+    margin: 2%;
+    background-color: rgba(0, 255, 255, 0.164);
+
 }
