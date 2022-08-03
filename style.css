@@ -95,14 +95,19 @@ hr {
 }
 
 #food-for-family {
+    background-image: url(images/salad.png);
+    background-size: 18%;
+    background-repeat: no-repeat;
     padding: 5%;
     border: 5%;
     margin: 2%;
     background-color: rgba(255, 228, 196, 0.37);
-
 }
 
 #Shelter-For-Family {
+    background-image: url(images/home.png);
+    background-size: 18%;
+    background-repeat: no-repeat;
     padding: 5%;
     border: 5%;
     margin: 2%;
@@ -111,9 +116,18 @@ hr {
 }
 
 #Sponsorship-for-Education {
+    background-image: url(images/education.png);
+    background-repeat: no-repeat;
+    background-size: 18%;
     padding: 5%;
     border: 2%;
     margin: 2%;
     background-color: rgba(0, 255, 255, 0.164);
 
+}
+
+.footer-copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10%;
 }
